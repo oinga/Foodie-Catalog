@@ -27,7 +27,7 @@
 3. Execute "cd /vagrant".
 4. Run 'python database_setup.py'.
 5. Run 'python run.py'.
-6. Visit localhost:8000 on a web browser on same machine to visit Item Catalog.
+6. Visit localhost:5000 on a web browser on same machine to visit the Catalog.
 
 
 ## The Design ##
@@ -35,4 +35,4 @@
 - The database backend is made from sqlite, the database is mapped to ORM, using SQLAlchemy
 - The framework is made with flask.
 - It follows the PEP8 style guide.
-- JSON rawdata is in url format, suffixed with "JSON" for the respective navigation URL. (e.g http://localhost:8000/cuisine JSON's at http://localhost:8000/cuisine/JSON)
+- JSON rawdata is in url format, suffixed with "JSON" for the respective navigation URL. (e.g http://localhost:5000/cuisine JSON's at http://localhost:5000/cuisine/JSON)
