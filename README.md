@@ -1,6 +1,6 @@
 ## Udacity Catalog Project README ##
 
-![alt text](https://i.ibb.co/ccFyYgZ/README-pic.png)
+![alt text](https://i.ibb.co/n0qZsBF/Screenshot-2019-01-10-Screenshot.png)
 
 - This is a flask application that will start a webserver serving at Localhost:8000
 - Data is STORED in an "SqLite" database hosted on the local machine
