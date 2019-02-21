@@ -2,11 +2,10 @@
 
 ![alt text](https://i.ibb.co/n0qZsBF/Screenshot-2019-01-10-Screenshot.png)
 
-- This is a flask application that will start a webserver serving at Localhost:8000
+- This is a flask application that will start a webserver serving at Localhost:8000 or by visiting https://catalogappudacity.herokuapp.com/
 - Data is STORED in an "SqLite" database hosted on the local machine
 - Users can login via OAuth2.0 using Google Api.
 - Once logged in, users can perform CRUD operations via the frontend functions created by the flask framework.
-
 
 ## Dependencies ##
 
