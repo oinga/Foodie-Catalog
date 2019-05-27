@@ -22,7 +22,7 @@ CLIENT_ID = json.loads(
 
 
 #Connect to Database and create database session
-engine = create_engine('sqlite:///foodiecatalog.db')
+engine = create_engine('sqlite:///foodiecatalog.db', connect_args={'check_same_thread': False})
 Base.metadata.bind = engine
 
 DBSession = sessionmaker(bind=engine)
